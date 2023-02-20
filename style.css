@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.conteiner{
+    width: 350px;
+    height: 150px;
+    background: #02B186;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 0 20px;
+}
+
+.conteiner .timer {
+    width: 80%;
+    height: 100px;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner .botoesA{
+    width: 10%;
+    height: 100px;
+    background: red;  
+}
+
+.conteiner .botoesA .btnmais {
+    height: 50px;
+    background: black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner .botoesA .btnmenos {
+    height: 50px;
+    background: black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner .botoesB {
+    width: 10%;
+    height: 100px;
+}
+
+.conteiner .botoesB .btnpause {
+    height: 30px;
+    background: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .botoesB .btnstart {
+    height: 40px;
+    background:black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .botoesB .btnstop {
+    height: 30px;
+    background: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
